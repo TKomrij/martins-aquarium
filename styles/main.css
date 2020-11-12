@@ -1,0 +1,98 @@
+header {
+  display:flex;
+}
+
+.content {
+  display:flex;
+}
+
+.logo {
+  height: 8em;
+}
+
+.fishList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+
+.fish {
+  border: 1px solid black;
+  border-radius: 5px;
+  flex-basis:30%;
+}
+
+.fish__head {
+  text-align: center;
+}
+
+.fish__image {
+  height: 8em;
+}
+
+.fish__padding {
+  padding-left: 8px;;
+}
+
+ .quote {
+  text-align: center;
+  margin-top: 12px;
+} 
+
+.quote__head {
+  text-align: center;
+}
+
+.location {
+  display: flex;
+  margin-top: 12px;
+}
+
+.location__head {
+  text-align: center;
+}
+
+.location__image {
+  height:12em;
+  padding: 0px 15px; 
+}
+
+.location__url a {
+  text-decoration: none;
+  color: rgb(231, 152, 4);
+}
+
+.location__url a:hover {
+  color: blue;
+}
+
+.location__padding {
+  padding-top: 10px;
+}
+
+.tip__head {
+  text-align: center;
+}
+
+.tip__padding {
+  padding: 8px 0px 0px 8px;
+}
+
+.container {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.container--left {
+  flex: 3;
+  margin-right:25px;
+}
+
+.container--right {
+  flex: 1;
+}
+
+.container--left article {
+  margin-bottom: 25px;
+}
