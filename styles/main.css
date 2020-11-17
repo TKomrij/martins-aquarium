@@ -31,8 +31,12 @@ header {
   height: 8em;
 }
 
-.fish__padding {
-  padding-left: 8px;;
+.card__image_center {
+  text-align: center;
+}
+
+.fish__content_padding {
+  padding-left: 8px;
 }
 
  .quote {
