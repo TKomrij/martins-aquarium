@@ -1,7 +1,7 @@
-import {fishList} from './fishList.js'
-import {quoteList} from './quoteList.js'
-import {locationList} from './locationList.js'
-import {tipList} from './tipList.js'
+import {fishList} from './fish/fishList.js'
+import {quoteList} from './quote/quoteList.js'
+import {locationList} from './location/locationList.js'
+import {tipList} from './tip/tipList.js'
 
 fishList()
 quoteList()
